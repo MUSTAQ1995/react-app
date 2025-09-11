@@ -1,12 +1,12 @@
 import "./App.css";
-import DebounceEx from "./components/DebouncedInput/DebounceEx";
+import AppCounter from "./components/redux/AppCounter";
 
 
 function App() {
 
   return (
     <>
-      <DebounceEx />
+    <AppCounter />
     </>
   );
 }
