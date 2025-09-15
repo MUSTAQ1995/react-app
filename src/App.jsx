@@ -1,12 +1,12 @@
 import "./App.css";
-import AppCounter from "./components/redux/AppCounter";
+import NamsteJavascript from "../src/components/namastejs/index"
 
 
 function App() {
 
   return (
     <>
-    <AppCounter />
+    <NamsteJavascript />
     </>
   );
 }
