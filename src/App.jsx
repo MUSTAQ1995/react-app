@@ -1,13 +1,12 @@
 import "./App.css";
-import NamsteJavascript from "../src/components/namastejs/index"
-
+import Home from "./components/contextApi/Home";
+import ThemeProvider from "./components/contextApi/ThemeProvider";
 
 function App() {
-
   return (
-    <>
-    <NamsteJavascript />
-    </>
+    <ThemeProvider>
+      <Home />
+    </ThemeProvider>
   );
 }
 
